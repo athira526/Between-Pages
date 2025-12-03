@@ -1,0 +1,228 @@
+.home-section{
+    position:relative;
+    width:100%;
+    overflow-x: hidden;
+    margin:0;
+    padding:0;
+}
+.outer-box{
+    position:relative;
+    width:75%;
+    height:75%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.inner-box{
+    position:relative;
+    width:90%;
+    height:80%;
+    display:flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Navbar Styles */
+.navbar{
+    position:relative;
+    width:100%;
+    height:8vh;
+    display:flex;
+    background-color: #947558;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'inspiration';
+    font-size: 3vh;
+    color: aliceblue;
+    padding-left: 2vw;
+}
+.search-form{
+    position: relative;
+    margin-left: auto;
+    margin-right: 5vw;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 0.5vw 1vw;
+}
+.search-form input{
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 1.5vh;
+    width: 15vw;
+}
+.search-form button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5vh;
+}
+
+
+/* Hero Section Styles */
+.home-hero-section{
+    position:relative;
+    width:100%;
+    height:92vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../assets/images/Home page/Home_bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: aliceblue;
+}
+.home-hero{
+    position:absolute;
+    width:30vw;
+    height:105vh;
+    top: -13vh;
+    left: 38.5%;
+}
+.hero-parchment{
+    position:absolute;
+    width:100vw;
+    height:70vh;
+    top: 40vh;
+    left: 22%;
+    opacity: 0.9;
+}
+
+
+
+/* Middle Category Section Styles */
+.home-category-section{
+    position: relative;
+    width: 100%;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../assets/images/Home page/home_middle.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.home-books{
+    position:absolute;
+    width:20vw;
+    height:40vh;
+    top:1vh;
+    left:72%;
+    z-index: 7;
+}
+.middle-parchment{
+    position:absolute;
+    width:100vw;
+    height:70vh;
+    top: 30vh;
+    left: 40%;
+    opacity: 0.9;
+}
+.category-buttons{
+    position:relative;
+    display: flex;
+    gap: 4vw;
+    justify-content: center;
+    align-items: center;
+    width:90%;
+    height: 80vh;
+    top: 5vh;
+    z-index: 5;
+}
+.category-card {
+    width: 20vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    transition: 0.3s ease-in-out;
+}
+.category-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+.category-card h2 {
+    margin-top: 1vh;
+    color: #E0E2E3;
+    font-size: 5vh;
+    font-family: "Inspiration", cursive;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+    letter-spacing: 0.1rem;
+}
+.category-card:hover {
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+
+/* Footer Section Styles */
+.home-footer-section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../assets/images/Home page/Home_bg.png");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.footer-parchment{
+    position:absolute;
+    width:100vw;
+    height:70vh;
+    top: -1vh;
+    left:40%;
+    opacity: 0.9;
+    transform: rotateX(180deg);
+}
+.footer-border{
+    position: absolute;
+    width: 40vw;
+    height: 60vh;
+    top: 40vh;
+    left: 60%;
+    transform: rotate(360deg);
+}
+.footer-parchment-2{
+    position:absolute;
+    width:60vw;
+    height:101vh;
+    top:-1vh;
+    right:40%;
+}
+.footer-hero{
+    position:absolute;
+    width:44vw;
+    height:95vh;
+    top: 4vh;
+    right:49%;
+}
+.stairs{
+    position:absolute;
+    width:38vw;
+    height:78vh;
+    top: 22vh;
+    left:66%;
+    opacity: 0.8;
+}
+.home-footer-section h1{
+    display: inline-block;
+    margin-left: 18%;
+    width: 20%;
+    text-align: center;
+}

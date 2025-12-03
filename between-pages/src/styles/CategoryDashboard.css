@@ -1,0 +1,88 @@
+.category-dash{
+    position:relative;
+    width:100%;
+    overflow-x: hidden;
+    margin:0;
+    padding:0;
+    background-image: url("../assets/images/CategoryDashboard/bg.png");
+    background-size: cover;
+    background-position:center;
+}
+.navbar{
+    position:relative;
+    width:100%;
+    height:8vh;
+    display:flex;
+    background-color: #947558;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'inspiration';
+    font-size: 3vh;
+    color: aliceblue;
+    padding-left: 2vw;
+}
+.title{
+    position: relative;
+    width: 100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'inspiration';
+    color: aliceblue;
+    text-align: center;
+    font-size: 350%;
+    letter-spacing: 0.3rem;
+}
+.birds{
+    height: 20vh;
+    width: 17vw;
+    margin-left: 5vw;
+    margin-right:18vw;
+}
+.chandelier{
+    margin-left: 15vw;
+    height:40vh;
+    width:20vw;
+}
+
+
+/* GRID LAYOUT */
+.product-grid {
+  width: 100%;
+  padding: 2vh 4vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2vw;               
+}
+.category-card {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;      
+  overflow: hidden;
+  cursor: pointer;
+}
+.category-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;        
+  object-position: center;
+  display: block;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  padding: 8px 0;
+  color: white;
+  font-family: "Inspiration", cursive;
+  font-size: 25vh;
+  text-align: center;
+  backdrop-filter: blur(1px);
+  justify-content: center;
+  align-items: center;
+  padding-top: 10vh;
+  background: rgba(0, 0, 0, 0.2);
+}
+
